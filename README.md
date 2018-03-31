@@ -4,8 +4,23 @@ Module 3 Assignment
 
 Command line example usage:
 
-`node mod3.js 200` or
 `node mod3.js`
+
+or
+
+`node mod3.js 200` 
+
+Output looks like:
+`
+Async start: 5 parallel task(s)
+Processing 0-200 out of 1000
+Processing 200-400 out of 1000
+Processing 400-600 out of 1000
+Processing 600-800 out of 1000
+Processing 800-1000 out of 1000
+Performance (ms): Start: 1522461008980 End: 1522461009577 Elapsed: 597
+`
+
 
 For the code design I pretty much just did things sequentially, ie read the files into memory then output to the DB.
 
